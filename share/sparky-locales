@@ -1,0 +1,1 @@
+?package(sparky-locales):needs="X11" section="Applications/System"        title="Language" command="remsu 'dpkg-reconfigure -f gnome locales'" icon="preferences-desktop-locale"

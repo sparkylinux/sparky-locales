@@ -1,0 +1,27 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Language
+Name[de_DE]=Sprache
+Name[es_AR]=Idioma
+Name[fr_FR]=Langue
+Name[it_IT]=Lingua
+Name[ja_JP]=言語
+Name[pl_PL]=Język
+Name[pt]=Língua
+Name[ru_RU]=Язык
+Name[sv_SE]=Språk
+Comment=This lets you to change the system language
+Comment[de_DE]=So können Sie die Systemsprache ändern
+Comment[es_AR]=Esto le permite para cambiar el idioma del sistema
+Comment[fr_FR]=Cela permet de changer la langue du système
+Comment[it_IT]=Ciò consente di modificare la lingua di sistema
+Comment[ja_JP]=システム言語を変更することができます。
+Comment[pl_PL]=Zmiana domyślnego języka systemu
+Comment[pt]=Isso permite que você para alterar o idioma do sistema
+Comment[ru_RU]=Это позволяет изменить язык системы
+Comment[sv_SE]=Detta kan du ändra systemspråk
+Exec=remsu "dpkg-reconfigure -f gnome locales"
+Icon=preferences-desktop-locale
+Categories=System
+Terminal=false
+Type=Application
